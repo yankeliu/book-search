@@ -1,4 +1,4 @@
-#基于vue2.0 + vuex + vue-router + vuex + vue-resource，并结合豆瓣图书API开发的图书搜索应用
+# 基于vue2.0 + vuex + vue-router + vuex + vue-resource，并结合豆瓣图书API开发的图书搜索应用
 
 ## 功能说明
 -  支持按照书名进行图书搜索
