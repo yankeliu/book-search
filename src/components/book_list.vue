@@ -80,10 +80,10 @@ export default {
 <style scoped>
 h1, h2 {
   font-weight: normal;
+  margin:0;
 }
 .varieties{
 	overflow: hidden;
-	margin-top: 20px;
 	background-color: #D8E4F7;
 }
 
@@ -165,6 +165,7 @@ h1, h2 {
 ul {
   list-style-type: none;
   padding: 0;
+  margin:0;
 }
 
 
