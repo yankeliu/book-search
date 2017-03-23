@@ -28,3 +28,6 @@
 \#打开浏览器输入localhost:8080即可访问
 
 `npm run dev`
+
+### 感谢
+数据接口调用豆瓣电影API（官方），文档地址：[https://developers.douban.com/wiki/?title=book_v2](https://developers.douban.com/wiki/?title=book_v2)
