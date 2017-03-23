@@ -13,14 +13,15 @@
   export default {
     props: {
       average: {
-        type: Number
+        type: String
       }
     },
     computed: {
       itemClasses () {
         let result = []
-        let starOn = Math.floor(this.average / 2)
-        let average2 = this.average / 2
+        let averageNum = parseFloat(this.average)
+        let starOn = Math.floor(averageNum / 2)
+        let average2 = averageNum / 2
         let starHalf = (average2 - starOn) === 0 ? 0 : 1
         for (let i = 0; i < starOn; i++) {
           result.push(CLS_ON)
